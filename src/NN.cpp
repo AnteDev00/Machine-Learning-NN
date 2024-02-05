@@ -41,7 +41,7 @@ void Train(Model& model, int itterations)
     // this is called finite difference (simple version of derivation)
     for (int j = 0; j < itterations; j++)
     {
-        //if(!(j%10)) cout << ".\n";
+		if (!(j % 100)) std::cout << ".\n"; // Visualisation of training
         
         for (int i = 0; i < NEURONS_COUNT; i++)
         {
