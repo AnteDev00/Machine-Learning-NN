@@ -22,7 +22,7 @@ As seen, initially, the model multiplies by 3.91 and adds -0.14. Consequently, i
 ### After training:
 ![Nakon učenja](https://github.com/AnteDev00/Machine-Learning/assets/151842550/8ce682d9-60f9-4058-8b9b-f4fd6e7a3728)
 
-During the learning process, the model reduces the values from 3.91 to 2 and -0.14 to 0. 
+During the learning process, the model reduces the values from 3.91->2 and -0.14->0. 
 
 This is achieved through the Cost function, and the entire goal of the learning process is to minimize the Cost function value, adjusting parameters and improving the model's predictions.
 
