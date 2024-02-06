@@ -63,7 +63,7 @@ It involves more complex Cost and Forward functions to achieve this.
 --- 
 
 ## Support
-If you have any questions, please reach out at [ante-piskovic@hotmail.com](mailto:ante-piskovic@hotmail.com)
+If you have any questions, reach out at [ante-piskovic@hotmail.com](mailto:ante-piskovic@hotmail.com)
 
 
 ## Credits
