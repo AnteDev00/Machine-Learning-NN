@@ -63,6 +63,6 @@ It involves more complex Cost and Forward functions to achieve this.
 
 --- 
 
-##Credit
+## Credit
 Thanks to [TSoding youtube channel](https://www.youtube.com/@TsodingDaily) for streaming informative Neural Networks content. 
 
