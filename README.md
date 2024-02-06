@@ -1,5 +1,6 @@
 # Machine Learning Project with Neural Networks
 
+## Project Description
 The project explores the domain of machine learning through the implementation of neural networks. The project consists of two key examples.
 
 ---
