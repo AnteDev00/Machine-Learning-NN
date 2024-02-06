@@ -60,8 +60,11 @@ It involves more complex Cost and Forward functions to achieve this.
 ### Cost and Forward functions:
 ![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/14fac635-2a2c-4bf7-91f4-e4ed80c78dde)
 
-
 --- 
+
+## Support
+If you have any questions, please reach out at [ante-piskovic@hotmail.com](mailto:ante-piskovic@hotmail.com)
+
 
 ## Credits
 Thanks to [TSoding youtube channel](https://www.youtube.com/@TsodingDaily) for streaming informative Neural Networks content. 
