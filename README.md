@@ -26,7 +26,7 @@ As seen, initially, the model multiplies by 3.91 and adds -0.14. Consequently, i
 During the learning process, the model reduces the values from 3.91->2 and -0.14->0. 
 
 This is achieved through the Cost function, and the entire goal of the learning process is to minimize the Cost function value, adjusting parameters and improving the model's predictions.
-
+#
 
 ### Cost function:
 ![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/4efabe17-a8fc-4376-8e7d-e4dee064392c)
@@ -47,7 +47,7 @@ This model, with three connected neurons, demonstrates the ability to recognize 
 ![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/4eac1bea-4556-4c04-9f6e-3499b13a96b6)
 
 As seen in the table, the model must accurately predict the output value (0/1) when given two inputs (e.g., 0 and 0).
-
+#
 ### Before training:
 ![Prije učenja](https://github.com/AnteDev00/Machine-Learning/assets/151842550/4494c54c-f61a-4a68-b043-b6fe0335bbd6)
 
