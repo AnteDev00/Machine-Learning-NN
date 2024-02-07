@@ -13,7 +13,7 @@ The first example introduces the perceptron, the simplest neural network with a 
 
 The goal is for the perceptron to learn the connection between the first set (0,1,2,3,4,5) and the second set (0,2,4,6,8,10), which is essentially multiplying by 2 (and adding nothing).
 
-
+#
 ### Before training:
 ![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/511af133-9098-453d-b4ae-da5d57db65c0)
 
