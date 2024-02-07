@@ -16,10 +16,10 @@ The goal is for the perceptron to learn the connection between the first set (0,
 #
 ### Before training:
 ![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/511af133-9098-453d-b4ae-da5d57db65c0)
-
+#
 
 As seen, initially, the model multiplies by 3.91 and adds -0.14. Consequently, its predictions are incorrect.
-
+#
 ### After training:
 ![Nakon učenja](https://github.com/AnteDev00/Machine-Learning/assets/151842550/8ce682d9-60f9-4058-8b9b-f4fd6e7a3728)
 
@@ -50,14 +50,14 @@ As seen in the table, the model must accurately predict the output value (0/1) w
 #
 ### Before training:
 ![Prije učenja](https://github.com/AnteDev00/Machine-Learning/assets/151842550/4494c54c-f61a-4a68-b043-b6fe0335bbd6)
-
+#
 ### After training:
 ![Nakon učenja](https://github.com/AnteDev00/Machine-Learning/assets/151842550/7a37a789-9743-4d13-9013-e914ae231e80)
-
+#
 This model controls a total of nine values, and after the training process, predictions become more precise. 
 
 It involves more complex Cost and Forward functions to achieve this.
-
+#
 ### Cost and Forward functions:
 ![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/14fac635-2a2c-4bf7-91f4-e4ed80c78dde)
 
