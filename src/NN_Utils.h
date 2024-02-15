@@ -3,7 +3,7 @@
 #include <iostream>
 
 // Utilities
-double RandomParam(); // Defined in Commmon.h
+extern double RandomParam(); // Defined in Commmon.h
 
 void RandomiseModel(Model& model)
 {

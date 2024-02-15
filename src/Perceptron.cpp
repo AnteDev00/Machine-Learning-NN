@@ -2,7 +2,7 @@
 #include <vector>
 #include <math.h>
 
-double RandomParam(); // Defined in "Common.h"
+extern double RandomParam(); // Defined in "Shared.h"
 
 // Data structure
 struct dataPair
@@ -21,43 +21,44 @@ std::vector<dataPair> t_data = {
     {5, 10},
 };
 
-double Cost(double param, double bias)
+double ModelCost(double param, double bias)
 {
-// ouput = input * parametar + bias
     double cost = 0.00;
     for (int i = 0; i < t_data.size(); i++)
     {
+        // Calculating model ouput
         double t_out = t_data[i].input * param + bias;
-       
+        // Calculating model error
         double diff = t_out - t_data[i].output;
+        // Adding it to calculate avg
         cost += diff * diff;
     }
-    cost /= t_data.size();
+    cost /= t_data.size(); // Avg model cost
     return cost;
 }
 
-void Train(double& param, double &bias, const int& itterations)
+void TrainModel(double& param, double &bias, const int& itterations)
 {
-    double eps = 1e-3;
-    double rate = 1e-3;
+    double eps = 1e-3; // Rate of parametar change
+    double rate = 1e-3; // Rate of training
 
     for (int it= 0; it < itterations; it++)
     {
-        if (!(it % 10)) std::cout << ".\n"; // Visualisation of training
+        if (!(it % 10)) std::cout << ".\n"; // "Visualisation" of training
 
-        double c = Cost(param, bias);
+        double c = ModelCost(param, bias);
 
-        double dparam = (Cost(param + eps, bias) - c ) / eps; 
-        double dbias = (Cost(param , eps + bias) - c ) / eps;
+        double dparam = (ModelCost(param + eps, bias) - c ) / eps;
+        double dbias = (ModelCost(param , eps + bias) - c ) / eps;
 
         param -= rate * dparam;
         bias  -= rate * dbias;
     }
     std::cout << "Parametar value is: " << param << ", Bias value: " << bias << std::endl << std::endl;
-    std::cout << "Cost function: " << std::fixed << Cost(param,bias) << std::endl << std::endl;
+    std::cout << "Cost function: " << std::fixed << ModelCost(param,bias) << std::endl << std::endl;
 }
 
-void Test(double& param, double& bias)
+void TestModel(double& param, double& bias)
 {
     double cost = 0.00;
     for (int i = 0; i < t_data.size(); i++)
@@ -76,14 +77,13 @@ void Main_Perceptron()
     double param = RandomParam();
     double bias = RandomParam();
     
-    // Train
     int itterations = 1;
     std::cout << "Before training:\n " << std::endl;
 
     while (itterations)
     {
-        Train(param, bias, itterations);
-        Test(param, bias);
+        TrainModel(param, bias, itterations);
+        TestModel(param, bias);
         std::cout << "\nEnter training itteration amount (200+, or 0 to EXIT): ";
         std::cin >> itterations;
     }
