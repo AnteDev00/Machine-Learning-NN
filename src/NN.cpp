@@ -82,7 +82,7 @@ void Main_NeuralNet()
 {
     std::cout << "NEURAL NET EXAMPLE\n" << std::endl;
     Model model;
-
+    
     RandomiseModel(model);
     PrintModel(model);
     std::cout << "\nModels' Cost function: " << ModelCost(model) << "\n\n";
@@ -91,15 +91,13 @@ void Main_NeuralNet()
     int itterations = 1;
     while (itterations)
     {
-        std::cout << "\nEnter training itteration amount(1000+): " << std::endl;
+        std::cout << "\nEnter training itteration amount(1000+): ";
         std::cin >> itterations;
+    
         TrainModel(model, itterations);
-       
         PrintModel(model);
-
+        std::cout << "\nModel's Cost function: " << std::fixed << ModelCost(model) << "\n\n";
         TestModel(model);  
-
-        std::cout << "Model's Cost function: " << std::fixed << ModelCost(model) << std::endl;
     }
 }
 

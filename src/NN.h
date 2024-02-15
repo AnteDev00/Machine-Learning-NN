@@ -1,6 +1,7 @@
 #pragma once
 
 const int NEURONS_COUNT = 3;
+
 // MODEL
 // Neuron structure
 struct Neuron
