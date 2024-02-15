@@ -29,7 +29,7 @@ This is achieved through the Cost function, and the entire goal of the learning 
 #
 
 ### Cost function:
-![image](https://github.com/AnteDev00/Machine-Learning-NN/assets/151842550/10fb094b-b9e3-418c-8a23-ff86cf7d0e41)
+![image](https://github.com/AnteDev00/Machine-Learning-NN/assets/151842550/eb179e96-2072-4cec-adfd-660bfcfa7b7b)
 
 
 ---
@@ -39,27 +39,27 @@ This is achieved through the Cost function, and the entire goal of the learning 
 The second example involves connecting multiple neurons to create a more intelligent system.
 
 ### Model Structure:
-![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/cedc50fb-1493-4fe6-addc-d38209e8e596)
+![image](https://github.com/AnteDev00/Machine-Learning-NN/assets/151842550/8c72c3ac-6f21-4861-bd39-739e4ac3f38d)
 
 This model, with three connected neurons, demonstrates the ability to recognize more complex patterns and rules, such as truth tables (XOR).
 
 ### XOR Truth Table:
-![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/4eac1bea-4556-4c04-9f6e-3499b13a96b6)
+![image](https://github.com/AnteDev00/Machine-Learning-NN/assets/151842550/8de4238b-45e3-4a27-ba6e-8a019b904dc1)
 
 As seen in the table, the model must accurately predict the output value (0/1) when given two inputs (e.g., 0 and 0).
 #
 ### Before training:
-![Prije učenja](https://github.com/AnteDev00/Machine-Learning/assets/151842550/4494c54c-f61a-4a68-b043-b6fe0335bbd6)
+![image](https://github.com/AnteDev00/Machine-Learning-NN/assets/151842550/fae590a5-9d39-4973-8655-85b8e8baca41)
 #
 ### After training:
-![Nakon učenja](https://github.com/AnteDev00/Machine-Learning/assets/151842550/7a37a789-9743-4d13-9013-e914ae231e80)
+![image](https://github.com/AnteDev00/Machine-Learning-NN/assets/151842550/c96e9dd7-28a9-4a51-ab0d-9ffa80648f3f)
 #
 This model controls a total of nine values, and after the training process, predictions become more precise. 
 
 It involves more complex Cost and Forward functions to achieve this.
 #
 ### Cost and Forward functions:
-![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/14fac635-2a2c-4bf7-91f4-e4ed80c78dde)
+![image](https://github.com/AnteDev00/Machine-Learning-NN/assets/151842550/b61d6fbf-70f8-4ab3-b89c-fc72cf5f803c)
 
 --- 
 
