@@ -52,7 +52,7 @@ As seen in the table, the model must accurately predict the output value (0/1) w
 ![image](https://github.com/AnteDev00/Machine-Learning-NN/assets/151842550/fae590a5-9d39-4973-8655-85b8e8baca41)
 #
 ### After training:
-![image](https://github.com/AnteDev00/Machine-Learning-NN/assets/151842550/c96e9dd7-28a9-4a51-ab0d-9ffa80648f3f)
+![image](https://github.com/AnteDev00/Machine-Learning-NN/assets/151842550/deb1ec5d-1960-42ee-8dd1-a3a33ee2e1f0)
 #
 This model controls a total of nine values, and after the training process, predictions become more precise. 
 
