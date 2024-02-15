@@ -9,19 +9,19 @@ The project explores the domain of machine learning through the implementation o
 
 The first example introduces the perceptron, the simplest neural network with a single neuron. This network enables the recognition of simple patterns, such as connections between sets of numbers. Visualizations before and after the learning process clearly demonstrate how the model adapts over time.
 
-![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/260ce590-f998-469b-b528-65eb19529eeb)
+![image](https://github.com/AnteDev00/Machine-Learning-NN/assets/151842550/4bbc06d7-2d2b-44f1-ba96-35c90ff732e5)
 
 The goal is for the perceptron to learn the connection between the first set (0,1,2,3,4,5) and the second set (0,2,4,6,8,10), which is essentially multiplying by 2 (and adding nothing).
 
 #
 ### Before training:
-![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/511af133-9098-453d-b4ae-da5d57db65c0)
+![image](https://github.com/AnteDev00/Machine-Learning-NN/assets/151842550/36586457-58be-4e03-b495-0791ed394f16)
 #
 
 As seen, initially, the model multiplies by 3.91 and adds -0.14. Consequently, its predictions are incorrect.
 #
 ### After training:
-![Nakon učenja](https://github.com/AnteDev00/Machine-Learning/assets/151842550/8ce682d9-60f9-4058-8b9b-f4fd6e7a3728)
+![image](https://github.com/AnteDev00/Machine-Learning-NN/assets/151842550/f7c50514-cf1d-4735-8ddb-33a2d7010fa9)
 
 During the learning process, the model reduces the values from 3.91->2 and -0.14->0. 
 
@@ -29,7 +29,7 @@ This is achieved through the Cost function, and the entire goal of the learning 
 #
 
 ### Cost function:
-![image](https://github.com/AnteDev00/Machine-Learning/assets/151842550/4efabe17-a8fc-4376-8e7d-e4dee064392c)
+![image](https://github.com/AnteDev00/Machine-Learning-NN/assets/151842550/10fb094b-b9e3-418c-8a23-ff86cf7d0e41)
 
 
 ---
