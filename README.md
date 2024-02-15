@@ -9,19 +9,19 @@ The project explores the domain of machine learning through the implementation o
 
 The first example introduces the perceptron, the simplest neural network with a single neuron. This network enables the recognition of simple patterns, such as connections between sets of numbers. Visualizations before and after the learning process clearly demonstrate how the model adapts over time.
 
-![image](https://github.com/AnteDev00/Machine-Learning-NN/assets/151842550/4bbc06d7-2d2b-44f1-ba96-35c90ff732e5)
+![image](https://github.com/AnteDev00/Machine-Learning-NN/assets/151842550/a1350c8e-3352-4088-a6d1-83f348767fa1)
 
 The goal is for the perceptron to learn the connection between the first set (0,1,2,3,4,5) and the second set (0,2,4,6,8,10), which is essentially multiplying by 2 (and adding nothing).
 
 #
 ### Before training:
-![image](https://github.com/AnteDev00/Machine-Learning-NN/assets/151842550/36586457-58be-4e03-b495-0791ed394f16)
+![image](https://github.com/AnteDev00/Machine-Learning-NN/assets/151842550/396e103b-4b23-4415-93da-dad3c9e5ca02)
 #
 
 As seen, initially, the model multiplies by 3.91 and adds -0.14. Consequently, its predictions are incorrect.
 #
 ### After training:
-![image](https://github.com/AnteDev00/Machine-Learning-NN/assets/151842550/f7c50514-cf1d-4735-8ddb-33a2d7010fa9)
+![image](https://github.com/AnteDev00/Machine-Learning-NN/assets/151842550/ba43ed70-9f99-45dc-9481-a74c71a12f4b)
 
 During the learning process, the model reduces the values from 3.91->2 and -0.14->0. 
 
